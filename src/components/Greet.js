@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Greet = () => <h2>Hello welcome to react functional compoment</h2>
+const Greet = () => <h2>Hello welcome to react functional components</h2>
 
 // function Greet(){
 //     return <h2>Hello welcome to react functional compoment</h2>
