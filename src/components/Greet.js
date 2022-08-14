@@ -1,8 +1,15 @@
 import React from "react";
 
+//using props to make dynamic content and reuse components
+const Greet = (props) => {
+    return (<div>
+        <h2>Hello {props.name} I love {props.hero}</h2>
 
-const Greet = () => <h2>Hello welcome to react functional compoment</h2>
+        {props.children}
+    </div>
+    )
 
+}
 // function Greet(){
 //     return <h2>Hello welcome to react functional compoment</h2>
 // }
