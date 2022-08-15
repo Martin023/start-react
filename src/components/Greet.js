@@ -14,25 +14,28 @@ import React from "react";
 /////////////////////////////////////////////
 //destructuring - extracting data from component attribute object
 //desturcturing functional components using parameter
-const Greet = ({name, hero}) => {
-        return (<div>
-            <h2>Hello {name} I love {hero}</h2>
-    
-            {/* {props.children} */}
-        </div>
-        )
-    
-    }
-    
 // const Greet = ({name, hero}) => {
-//     return (<div>
-//         <h2>Hello {name} I love {hero}</h2>
+//         return (<div>
+//             <h2>Hello {name} I love {hero}</h2>
+    
+//             {/* {props.children} */}
+//         </div>
+//         )
+    
+//     }
+/////////////////////////////////////////////////////////
+// destructuring functional components within the function
 
-//         {props.children}
-//     </div>
-//     )
+const Greet = props => {
+    const {name, hero} = props
+    return (<div>
+        <h2>Hello {name} I love {hero}</h2>
 
-// }
+        {props.children}
+    </div>
+    )
+
+}
     
 
 //creating a functionalcomponent using normal javascript functions
