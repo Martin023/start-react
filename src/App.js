@@ -6,9 +6,13 @@ import Home from './components/home';
 import Message from './components/Message'
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
+import ClassClick from './components/ClassClick';
+
 function App() {
   return (
     <div className="App">
+
+
       {/* //including greet function component */}
       {/* <Greet name='kelvin' hero='Batman'> <p>hello child prop </p></Greet>
       <Greet name='Brian' hero='Superman'><button>Press me</button></Greet>
@@ -23,7 +27,9 @@ function App() {
 
       {/* <Counter/> */}
 
-      <FunctionClick></FunctionClick>
+      {/* <FunctionClick></FunctionClick> */}
+
+      <ClassClick/>
     </div>
   );
 }
