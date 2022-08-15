@@ -25,8 +25,17 @@ import React, { Component } from 'react'
             }
         ))
     }
+    // increment (){
+    //     this.setState(
+    //         {
+    //             count: this.state.count + 1
+    //         },
+    //         () => {
+    //             console.log('Callback value', this.state.count) //using function argument as the 2nd parameter. Used when you want to execute code after change of component state.
+    //         }
+    //     )
+    // }
 
-    
 
   render() {
     return (
