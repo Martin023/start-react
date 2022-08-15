@@ -5,6 +5,7 @@ import Welcome from './components/Welcome';
 import Home from './components/home';
 import Message from './components/Message'
 import Counter from './components/Counter';
+import FunctionClick from './components/FunctionClick';
 function App() {
   return (
     <div className="App">
@@ -15,12 +16,14 @@ function App() {
       {/*  or <Greet/> if there is no content btwn the tags */}
 
       {/* importing a class component */}
-      <Welcome name='Crazy' heroName ='Riddler'><p>Joker</p></Welcome>
+      {/* <Welcome name='Crazy' heroName ='Riddler'><p>Joker</p></Welcome> */}
       {/* <Message></Message> */}
       
       {/* <Home></Home> */}
 
       {/* <Counter/> */}
+
+      <FunctionClick></FunctionClick>
     </div>
   );
 }
