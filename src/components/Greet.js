@@ -5,9 +5,12 @@ import React from "react";
 //     return (<div>
 //         <h2>Hello {props.name} I love {props.hero}</h2>
 
+
 //         {props.children}
 //     </div>
 //     )
+
+// const Greet = () => <h2>Hello welcome to react functional components</h2> using arrow func to create components.
 
 // }
 

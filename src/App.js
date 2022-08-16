@@ -3,10 +3,12 @@ import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Home from './components/home';
+
 import Message from './components/Message'
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
       {/*  or <Greet/> if there is no content btwn the tags */}
 
       {/* importing a class component */}
+
       {/* <Welcome name='Crazy' heroName ='Riddler'><p>Joker</p></Welcome> */}
       {/* <Message></Message> */}
       
@@ -30,6 +33,9 @@ function App() {
       {/* <FunctionClick></FunctionClick> */}
 
       <ClassClick/>
+
+      <Welcome></Welcome>
+      <Home></Home>
     </div>
   );
 }
