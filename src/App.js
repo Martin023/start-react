@@ -3,7 +3,7 @@ import './App.css';
 import Greet from './components/Greet';
 import Welcome from './components/Welcome';
 import Home from './components/home';
-
+import EventBind from './components/EventBind';
 import Message from './components/Message'
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
@@ -32,10 +32,12 @@ function App() {
 
       {/* <FunctionClick></FunctionClick> */}
 
-      <ClassClick/>
+      {/* <ClassClick/>
 
       <Welcome></Welcome>
-      <Home></Home>
+      <Home></Home> */}
+
+      <EventBind/>
     </div>
   );
 }
