@@ -8,8 +8,12 @@ import Message from './components/Message'
 import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
-
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from './components/UserGreeting'
+
+
+
+
 function App() {
   return (
     <div className="App">
@@ -37,8 +41,14 @@ function App() {
       <Welcome></Welcome>
       <Home></Home> */}
       {/* <EventBind/> */}
+      {/* parent and child component communication */}
+      {/* <ParentComponent/> */}
 
-      <ParentComponent/>
+      <UserGreeting/>
+      
+
+
+
     </div>
   );
 }
