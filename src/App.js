@@ -10,7 +10,7 @@ import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting'
-
+import NameList from './components/NameList';
 
 
 
@@ -44,8 +44,8 @@ function App() {
       {/* parent and child component communication */}
       {/* <ParentComponent/> */}
 
-      <UserGreeting/>
-      
+      {/* <UserGreeting/> */}
+      <NameList/>
 
 
 
