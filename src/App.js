@@ -11,7 +11,7 @@ import ClassClick from './components/ClassClick';
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList';
-
+import Stylesheet from './components/Stylesheet';
 
 
 function App() {
@@ -45,7 +45,9 @@ function App() {
       {/* <ParentComponent/> */}
 
       {/* <UserGreeting/> */}
-      <NameList/>
+      {/* <NameList/> */}
+
+      <Stylesheet></Stylesheet>
 
 
 

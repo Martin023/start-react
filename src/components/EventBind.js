@@ -33,6 +33,7 @@ class EventBind extends Component {
         {/* <button onClick={this.clickHandler.bind(this)}>Click ME!</button> */}
 
         {/* method 2 of event binding by using arrow functions in the render method */}
+        {/* the official way in react documentation */}
         {/* <button onClick={() => this.clickHandler()}>Click ME!</button> */}
 
         {/* method 3 of event binding by binding the event handler in the constructor as opposedin the render method- official documentation style */}

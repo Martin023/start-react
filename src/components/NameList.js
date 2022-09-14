@@ -20,6 +20,7 @@ function NameList() {
 const names = ['John', 'Paul', 'George', 'John']
 
 // The arrow function within the map method may take a 2nd parameter index to use the index as the key prop
+// adviced to use on lists that wont change.
 const nameList = names.map((name,index) => <h2 key={index}>{index} {name}</h2>  )
 return <div>{nameList}</div>
 
