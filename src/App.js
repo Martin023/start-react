@@ -12,6 +12,7 @@ import ParentComponent from './components/ParentComponent';
 import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
+import InlineStyling from './components/InlineStyling';
 
 
 function App() {
@@ -47,8 +48,8 @@ function App() {
       {/* <UserGreeting/> */}
       {/* <NameList/> */}
 
-      <Stylesheet></Stylesheet>
-
+      {/* <Stylesheet></Stylesheet> */}
+      <InlineStyling/>
 
 
     </div>
