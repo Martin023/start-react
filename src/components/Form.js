@@ -28,17 +28,21 @@ handleTopicChange = (event) => {
       })
 }
 handleSubmit = (event) => {
-    // alert(`${this.state.username} ${this.state.comments} ${this.state.topic }`)revent default method heps us not tolose data that we have input
+    alert(`${this.state.username} ${this.state.comments} ${this.state.topic }`)
+    // prevent default method helps us not tolose data that we have input when we refresh a page
     event.preventDefault()
 }
 
   render() {
+    // to destructure the state properties:
+    const {username, comments, topic } = this.state
+    // and now we can include them in the value property without the this.state as shown in username.
     return (
      <form onSubmit={this.handleSubmit}>
         <div>
             <label>user name</label>
             <input type='text'
-                value={this.state.username} 
+                value={username} 
                 onChange={this.handleUsernameChange}/>
         </div>
         <div>
