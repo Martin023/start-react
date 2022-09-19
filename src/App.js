@@ -14,7 +14,8 @@ import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import InlineStyling from './components/InlineStyling';
 import Form from './components/Form';
-
+import LifecycleMount from './components/LifecycleMount';
+import UpdatinglifecycleMethods from './components/UpdatinglifecycleMethods';
 
 function App() {
   return (
@@ -51,7 +52,8 @@ function App() {
 
       {/* <Stylesheet></Stylesheet> */}
       {/* <InlineStyling/> */}
-      <Form/>
+      {/* <Form/> */}
+     <UpdatinglifecycleMethods/> 
 
     </div>
   );

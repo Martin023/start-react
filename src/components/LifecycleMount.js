@@ -10,7 +10,7 @@ class LifecycleMount extends Component {
       }
       console.log('contructor mount method')
     }
-//static keyword ust be included or the method will be ignored
+//static keyword must be included or the method will be ignored
     static getDerivedStateFromProps(props,state) {
         console.log('the get derived from state static method')
     }
