@@ -17,6 +17,7 @@ import Form from './components/Form';
 import LifecycleMount from './components/LifecycleMount';
 import UpdatinglifecycleMethods from './components/UpdatinglifecycleMethods';
 import FragmentDemo from './components/FragmentDemo';
+import Table from './components/Table';
 
 function App() {
   return (
@@ -55,7 +56,10 @@ function App() {
       {/* <InlineStyling/> */}
       {/* <Form/> */}
      {/* <UpdatinglifecycleMethods/>  */}
-      <FragmentDemo></FragmentDemo>
+      {/* <FragmentDemo></FragmentDemo> */}
+
+
+      <Table></Table>
     </div>
   );
 }
