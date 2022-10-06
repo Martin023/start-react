@@ -18,6 +18,8 @@ import LifecycleMount from './components/LifecycleMount';
 import UpdatinglifecycleMethods from './components/UpdatinglifecycleMethods';
 import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
+import PureComp from './components/PureComponent';
+import RerenderComp from './components/RerenderComp';
 
 function App() {
   return (
@@ -59,7 +61,10 @@ function App() {
       {/* <FragmentDemo></FragmentDemo> */}
 
 
-      <Table></Table>
+      {/* <Table></Table> */}
+      {/* <PureComp/> */}
+      <RerenderComp/>
+
     </div>
   );
 }
