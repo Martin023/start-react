@@ -16,6 +16,7 @@ import InlineStyling from './components/InlineStyling';
 import Form from './components/Form';
 import LifecycleMount from './components/LifecycleMount';
 import UpdatinglifecycleMethods from './components/UpdatinglifecycleMethods';
+import FragmentDemo from './components/FragmentDemo';
 
 function App() {
   return (
@@ -53,8 +54,8 @@ function App() {
       {/* <Stylesheet></Stylesheet> */}
       {/* <InlineStyling/> */}
       {/* <Form/> */}
-     <UpdatinglifecycleMethods/> 
-
+     {/* <UpdatinglifecycleMethods/>  */}
+      <FragmentDemo></FragmentDemo>
     </div>
   );
 }
