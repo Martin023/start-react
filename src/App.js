@@ -20,6 +20,9 @@ import FragmentDemo from './components/FragmentDemo';
 import Table from './components/Table';
 import PureComp from './components/PureComponent';
 import RerenderComp from './components/RerenderComp';
+import RefsDemo from './components/RefsDemo';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import AddingBootstrap from './AddingBootstrap';
 
 function App() {
   return (
@@ -63,7 +66,10 @@ function App() {
 
       {/* <Table></Table> */}
       {/* <PureComp/> */}
-      <RerenderComp/>
+      {/* <RerenderComp/> */}
+
+      {/* <RefsDemo/> */}
+      <AddingBootstrap></AddingBootstrap>
 
     </div>
   );
