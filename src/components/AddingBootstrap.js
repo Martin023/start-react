@@ -12,9 +12,13 @@ class AddingBootstrap extends Component {
     }
 }
   render() {
+    let classes = 'badge m-2';
+    classes += (this.state.count === 0) ? 'badge-warning' : 'badge-primary';
+
     return (
       <div>AddingBootstrap
         {/* <img src={this.state.imgUrl} alt=''></img> */}
+        <span className='badge '></span>
         <button className='btn btn-success m-2'>Success</button>
       </div>
     )

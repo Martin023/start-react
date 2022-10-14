@@ -22,7 +22,8 @@ import PureComp from './components/PureComponent';
 import RerenderComp from './components/RerenderComp';
 import RefsDemo from './components/RefsDemo';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AddingBootstrap from './AddingBootstrap';
+import AddingBootstrap from './components/AddingBootstrap';
+import ConditionalRender from './components/ConditionalRender';
 
 function App() {
   return (
@@ -69,7 +70,8 @@ function App() {
       {/* <RerenderComp/> */}
 
       {/* <RefsDemo/> */}
-      <AddingBootstrap></AddingBootstrap>
+      {/* <AddingBootstrap/> */}
+      <ConditionalRender></ConditionalRender>
 
     </div>
   );
